@@ -1,0 +1,32 @@
+.form--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    width: 80%;
+}
+
+.inputs--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 45%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 100%;
+    background: linear-gradient(to right, rgb(37, 178, 37), green);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

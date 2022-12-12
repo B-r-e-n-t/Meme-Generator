@@ -1,0 +1,17 @@
+* {
+    font-family: 'Chilanka', cursive;
+}
+
+.header {
+    height: 100px;
+    background: linear-gradient(to right, rgb(37, 178, 37), green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header h1, h3 {
+    color: white;
+}
