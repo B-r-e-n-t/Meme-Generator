@@ -7,8 +7,8 @@ import memesData from '../memesData'
 
 function Meme() {
 
-const [topText, setTopText] = useState('This is the top text')
-const [bottomText, setBottomText] = useState('bottom text')
+const [topText, setTopText] = useState('')
+const [bottomText, setBottomText] = useState('')
 const [image, setImage] = useState('https://i.imgflip.com/1ur9b0.jpg')
 
 
@@ -42,9 +42,11 @@ const [image, setImage] = useState('https://i.imgflip.com/1ur9b0.jpg')
                     className='button'>
                     Get a new meme image 🕺🏽
                 </button>
-            <p>{topText}</p>
-            <img src={image} className='meme-image' />
-            <p>{bottomText}</p>
+            <div className='meme'>
+                <img src={image} className='meme-image'/>
+                <h2 className='meme-text top-text'>{topText}</h2>
+                <h2 className='meme-text bottom-text'>{bottomText}</h2>
+            </div>
         </div>
   )
 }
